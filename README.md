@@ -19,3 +19,5 @@ Obtained the average day length for the 7 days prior to the date of trap measure
 4. Modeling
 
 Notebook contains some EDA, to describe the relationship between the day length, weather, and longitude features and WNV classification status.  Day length was the feature that varied the most dramatically between the two classes.  Generated models (Random Forest, SVC, and Logistic Regression).  Generated Kaggle submission.
+
+5. Kaggle Score is reported in 05_Kaggle Score.png.  Best AUC_ROC score was .665, generated using logistic regression.  The primary features relied on by the logistic regression were day length, day length squared, the particular mosquito found in the trap, and recent temperature, the longitude (i.e., distance to Lake Michigan), wind in the recent past, and whether the trap was from certain streets that were "hot spots" for WNV.
